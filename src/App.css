@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: inter;
+}
+.Navbar-item ul li a {
+  color: #0d0a19;
+  font-weight: 600;
+  font-size: 16px;
+}
+.signUp a {
+  color: #9a9ea7 !important;
+}
+.heroSection p {
+  color: #9a9ea7 !important;
+  font-weight: 400;
+}
+.heroSection h1 {
+  font-weight: 700 !important;
+  font-size: 64px;
+  margin-top: -20px;
+}
+.heroSection button {
+  background-color: #f5f6f7;
+  font-weight: 700;
+  font-size: 14px;
+  color: #9a9ea7;
+  padding: 8px 20px 8px 20px;
+  border-radius: 10px;
+}
+.testDrive {
+  background-color: #7963f0 !important;
+  color: #ffffff !important;
+}
+
+.carousel-control-next-icon {
+  background-color: #9a9ea7 !important;
+  border-radius: 10px;
+  padding: 2px 4px 2px 4px;
+  font-weight: 400;
+  font-size: 18px;
+}
+.carousel-control-prev-icon {
+  background-color: #9a9ea7 !important;
+  border-radius: 10px;
+  padding: 2px 4px 2px 4px;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+/* filter section */
+.vr {
+  height: 30px;
+  margin-top: 30px;
+}
+hr {
+  width: 85px;
+  position: absolute;
+  right: 45%;
+  margin-top: 70px;
+}
+.searchBtn {
+  background-color: #7963f0 !important;
+  height: 50px;
+  padding: 8px 30px 8px 30px;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.type select {
+  font-weight: 700;
+}
+.make select {
+  font-weight: 700;
+}
+.cursor {
+  cursor: pointer;
+}
+/* Trending near you section */
+.trendingTitle {
+  font-size: 28px;
+  line-height: 36px;
+  font-weight: 700;
+}
+.btn {
+  letter-spacing: 1px;
+  transition: all;
+  transition-duration: 300ms;
+}
+.priceBtn {
+  background-color: #ebe8fc;
+  color: #7963f0;
+  border: none;
+}
+.title {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #0d0a19 !important;
+}
+/* best selling section */
+.bestSelling h1 {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 36px;
+  color: #0d0a19 !important;
+}
+.name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  color: #0d0a19 !important;
+}
+/* review section */
+.review {
+  width: 361px;
+}
+.reviewMt {
+  padding-top: 80px;
+}
+.reviewTitle {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 36px;
+  color: #0d0a19 !important;
+}
+.car {
+  width: 600px !important;
+  height: 400px !important;
+  margin: 0 auto;
+}
+.car1 {
+  width: 800px !important;
+  height: 400px !important;
+  margin: 0 auto;
+}
+/* responsive */
+@media screen and (max-width: 992px) {
+  .heroSection h1 {
+    font-size: 48px;
+  }
+  .searchBtn {
+    width: 75%;
+    margin: 0 auto;
+  }
+  .car,
+  .car1 {
+    width: 400px !important;
+    height: 180px !important;
+  }
+}
