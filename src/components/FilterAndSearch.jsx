@@ -10,12 +10,15 @@ function Type() {
           <option className="fs-6 fw-light text-primary bg-black">
             New Car
           </option>
+          <option className="fs-6 fw-light text-primary bg-black">
+            Vangri car
+          </option>
         </select>
       </label>
       <hr className="d-lg-none d-flex" />
       <div className="vr d-none d-lg-flex" />
     </div>
-  )
+  );
 }
 function Make() {
   return (
@@ -34,7 +37,7 @@ function Make() {
       <hr className="d-lg-none d-flex" />
       <div className="vr d-none d-lg-flex" />
     </div>
-  )
+  );
 }
 function Year() {
   return (
@@ -52,7 +55,7 @@ function Year() {
       <hr className="d-lg-none d-flex" />
       <div className="vr d-none d-lg-flex" />
     </div>
-  )
+  );
 }
 function Model() {
   return (
@@ -77,7 +80,7 @@ function Model() {
       <hr className="d-lg-none d-flex" />
       <div className="vr d-none d-lg-flex" />
     </div>
-  )
+  );
 }
 function Price() {
   return (
@@ -104,7 +107,7 @@ function Price() {
       </label>
       <hr className="d-lg-none d-flex" />
     </div>
-  )
+  );
 }
 
 function FilterAndSearch() {
@@ -126,7 +129,7 @@ function FilterAndSearch() {
         </button>
       </div>
     </div>
-  )
+  );
 }
 
-export default FilterAndSearch
+export default FilterAndSearch;
